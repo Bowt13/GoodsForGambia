@@ -79,14 +79,14 @@ componentDidMount(){
         {donatePackage &&
           <Redirect
             to={{
-              pathname: "/formulieren/aanmeldingsformulier-pakketten",
+              pathname: "/GoodsForGambia/formulieren/aanmeldingsformulier-pakketten",
             }}
           />
         }
         {home &&
           <Redirect
             to={{
-              pathname: "/",
+              pathname: "/GoodsForGambia",
             }}
           />
         }
