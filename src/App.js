@@ -23,9 +23,9 @@ class App extends Component {
         <MuiThemeProvider>
           <div className="App">
             <Navbar/>
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/formulieren/aanmeldingsformulier-pakketten" component={PackageSendForm} />
-            <Route exact path="/formulieren/aanmeldingsformulier-succes" component={PackageSendComplete} />
+            <Route exact path="/GoodsForGambia" component={Homepage} />
+            <Route exact path="/GoodsForGambia/formulieren/aanmeldingsformulier-pakketten" component={PackageSendForm} />
+            <Route exact path="/GoodsForGambia/formulieren/aanmeldingsformulier-succes" component={PackageSendComplete} />
           </div>
         </MuiThemeProvider>
       </Router>
