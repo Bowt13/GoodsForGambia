@@ -1,0 +1,28 @@
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+*:focus {
+  outline:0;
+}
+
+.App {
+  text-align: center;
+}
+
+.page {
+  position: absolute;
+  top: 8vh;
+  height: 92vh;
+  width: 100vw;
+}
+
+.page-title {
+  margin-top: 5%;
+}
+
+.button-icon {
+  margin-left: 10px;
+}
